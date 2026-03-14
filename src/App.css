@@ -118,17 +118,17 @@ h1 em {
   text-transform: uppercase;
 }
 
-.verticles {
+.verticals {
   padding: 6rem 4rem;
 }
 
-.verticle-grid {
+.vertical-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2px;
 }
 
-.verticle-card {
+.vertical-card {
   background: var(--offwhite);
   padding: 3rem 2.5rem;
   display: flex;
@@ -138,9 +138,9 @@ h1 em {
   cursor: default;
 }
 
-.verticle-card:hover { background: #e4e1db; }
+.vertical-card:hover { background: #e4e1db; }
 
-.verticle-name {
+.vertical-name {
   font-family: 'Playfair Display', serif;
   font-size: 1.5rem;
   font-weight: 400;
@@ -148,7 +148,7 @@ h1 em {
   line-height: 1.2;
 }
 
-.verticle-desc {
+.vertical-desc {
   font-size: 0.85rem;
   line-height: 1.75;
   color: #777;
@@ -273,8 +273,9 @@ h1 em {
   gap: 3rem;
 }
 
-.verticle-grid {
+.vertical-grid {
   grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
 }
 
 .team-grid {
@@ -312,12 +313,13 @@ h1 em {
   gap: 1rem;
 }
 
-.verticles {
+.verticals {
   padding: 4rem 1.5rem;
 }
 
-.verticle-grid {
+.vertical-grid {
   grid-template-columns: 1fr;
+  gap:10px;
 }
 
 .team {
