@@ -17,7 +17,7 @@ function App() {
           <p className='hero-desc'>A Multidisciplinary club that handles and organized events across every sectors and departments, led by group of students and faculty associated</p>
         </div>
         <div className='hero-image'>
-          <img src='/image.jpeg' className='home-jpg'/>
+          <img src={process.env.PUBLIC_URL + "/image.jpeg"} className='home-jpg'/>
         </div>
         </div>
         <div className="hero-footer">
