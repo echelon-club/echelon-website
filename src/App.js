@@ -14,7 +14,7 @@ function App() {
         <div className='hero-body'>
         <div>
           <h1>Something<br/><em>remarkable</em><br/>is coming</h1>
-          <p className='hero-desc'>A Multidisciplinary club that handles and organized events across every sectors and departments, led by group of students and faculty associated</p>
+          <p className='hero-desc'>A Multidisciplinary club that handles and organizes events across every sectors and departments, led by group of students and faculty associated</p>
         </div>
         <div className='hero-image'>
           <img src={process.env.PUBLIC_URL + "/image.jpeg"} className='home-jpg'/>
@@ -97,6 +97,11 @@ function App() {
             <div className="member-avatar"><span>R</span></div>
             <div className="member-name">Ramachandran S</div>
             <div className="member-role">Tech Platform Manager</div>
+          </div>
+          <div className="member-card">
+            <div className="member-avatar"><span>A</span></div>
+            <div className="member-name">Abhinav R</div>
+            <div className="member-role">AI Lead</div>
           </div>
         </div>
       </section>
