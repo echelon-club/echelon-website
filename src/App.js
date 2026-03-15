@@ -101,7 +101,7 @@ function App() {
           <div className="member-card">
             <div className="member-avatar"><span>A</span></div>
             <div className="member-name">Abhinav R</div>
-            <div className="member-role">AI Lead</div>
+            <div className="member-role">AI Tech Lead</div>
           </div>
         </div>
       </section>
