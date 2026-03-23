@@ -37,9 +37,11 @@ function UpcomingEvents() {
             <div className="events-grid">
                 {events.map((event, index) => (
                     <div className="events-card" key={index}>
+                        {event.image?.trim() && (
                         <div className="event-card-img">
-                            <img src={event.image} />
+                            <img src={event.image} alt={event.title} />
                         </div>
+                        )}
 
                         <div className="event-upper-tag">
                             <div className="event-type-tag dark">
